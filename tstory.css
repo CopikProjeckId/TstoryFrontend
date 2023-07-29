@@ -1,6 +1,6 @@
 .box {
     top: 0px;
-    width: 30px; height: 30px;
+    height: 30px;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     color: white;
@@ -14,39 +14,96 @@
     animation-delay: 0s;
     animation-name: simpleBox;
     border-radius: 40%;
+    width: 30px; 
 }
 .box2 {
     background: darkcyan;
     animation-delay: 3s;
     animation-name: simpleBox;
     border-radius: 40%;
+    width: 30px; 
 }
 .box3 {
     background: violet;
     animation-delay: -3s;
     animation-name: simpleBox;
     border-radius: 40%;
+    width: 30px; 
 }
 
 .boxd1 {
     background: red;
     animation-duration: 1s;
     animation-name: longBox;
+    width: 30px; 
 }
 .boxd2 {
     background: blueviolet;
     animation-duration: 2s;
     animation-name: longBox;
+    width: 30px; 
 }
 .boxd3 {
     background: blue;
     animation-duration: 3s;
     animation-name: longBox;
+    width: 30px; 
 }
 .boxd4 {
     background: rgb(156, 0, 0);
     animation-duration: 4s;
     animation-name: longBox;
+    width: 30px; 
+}
+
+.boxt1 {
+    background: red;
+    animation-duration: 3s;
+    animation-name: longBox;
+    animation-timing-function: ease;
+    width: 100px; 
+}
+.boxt2 {
+    background: blueviolet;
+    animation-duration: 3s;
+    animation-name: longBox;
+    animation-timing-function: linear;
+    width: 100px; 
+}
+.boxt3 {
+    background: blue;
+    animation-duration: 3s;
+    animation-name: longBox;
+    animation-timing-function: ease-in;
+    width: 100px; 
+}
+.boxt4 {
+    background: rgb(156, 0, 0);
+    animation-duration: 3s;
+    animation-name: longBox;
+    animation-timing-function: ease-out;
+    width: 100px; 
+}
+.boxt5 {
+    background: rgb(0, 151, 113);
+    animation-duration: 3s;
+    animation-name: longBox;
+    animation-timing-function: ease-in-out;
+    width: 100px; 
+}
+.boxt6 {
+    background: rgb(127, 141, 0);
+    animation-duration: 3s;
+    animation-name: longBox;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.855, 1.275);
+    width: 100px; 
+}
+.boxt7 {
+    background: rgb(61, 61, 61);
+    animation-duration: 3s;
+    animation-name: longBox;
+    animation-timing-function: steps(8);
+    width: 100px; 
 }
 @keyframes simpleBox{
     0% {
