@@ -1,8 +1,6 @@
 .box {
     top: 0px;
     width: 30px; height: 30px;
-    border-radius: 40%;
-    animation-name: simpleBox;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     color: white;
@@ -14,14 +12,41 @@
 .box1 {
     background: yellowgreen;
     animation-delay: 0s;
+    animation-name: simpleBox;
+    border-radius: 40%;
 }
 .box2 {
     background: darkcyan;
     animation-delay: 3s;
+    animation-name: simpleBox;
+    border-radius: 40%;
 }
 .box3 {
     background: violet;
     animation-delay: -3s;
+    animation-name: simpleBox;
+    border-radius: 40%;
+}
+
+.boxd1 {
+    background: red;
+    animation-duration: 1s;
+    animation-name: longBox;
+}
+.boxd2 {
+    background: blueviolet;
+    animation-duration: 2s;
+    animation-name: longBox;
+}
+.boxd3 {
+    background: blue;
+    animation-duration: 3s;
+    animation-name: longBox;
+}
+.boxd4 {
+    background: rgb(156, 0, 0);
+    animation-duration: 4s;
+    animation-name: longBox;
 }
 @keyframes simpleBox{
     0% {
@@ -35,5 +60,13 @@
     }
     75% {
         margin-left: 30px;
+    }
+}
+@keyframes longBox{
+    0% {
+        padding-right: 0%;
+    }
+    50% {
+        padding-right: 100px;
     }
 }
