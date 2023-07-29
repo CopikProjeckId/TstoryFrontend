@@ -1,20 +1,20 @@
+.box {
+    width: 10px; height: 10px; background: black;
+    border-radius: 100%;
+    animation: simpleBox 2s infinite linear;
+}
+
 @keyframes simpleBox{
     0% {
-        padding-left: 0%;
+        margin-top: 0%;
+        margin-left: 0%;
     }
-    20% {
-        padding-left: 60%;
+    25% {
+        margin-top: 10%;
+        margin-left: 0%;
     }
-    40% {
-        padding-left: 30%;
-    }
-    60% {
-        padding-left: 80%;
-    }
-    80% {
-        padding-left: 20%;
-    }
-    100% {
-        padding-left: 100%;
+    50% {
+        margin-top: 5%;
+        margin-left: 10%;
     }
 }
