@@ -4,7 +4,7 @@
     animation-duration: 5s;
     animation-iteration-count: infinite;
     color: white;
-    font-size: 10px;
+    font-size: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,6 +105,43 @@
     animation-timing-function: steps(8);
     width: 100px; 
 }
+
+.marginer {
+    margin-top: 0px;
+    margin-left : 0px;
+}
+.boxed1{
+    background: rgba(12, 129, 247, 0.473);
+    width: 100px;
+    animation-name: direction;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: normal;
+}
+.boxed2{
+    background: rgba(247, 20, 12, 0.473);
+    width: 100px;
+    animation-name: direction;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
+.boxed3{
+    background: rgba(247, 12, 235, 0.473);
+    width: 100px;
+    animation-name: direction;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+.boxed4{
+    background: rgba(12, 181, 247, 0.473);
+    width: 100px;
+    animation-name: direction;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+}
 @keyframes simpleBox{
     0% {
         margin-left: 0%;
@@ -119,11 +156,27 @@
         margin-left: 30px;
     }
 }
+
 @keyframes longBox{
     0% {
         padding-right: 0%;
     }
     50% {
         padding-right: 100px;
+    }
+}
+
+@keyframes direction{
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        margin-top: 20px;
+        transform: rotate(10deg);
+    }
+    
+    50% {
+        margin-top: 30px;
+        transform: rotate(0deg);
     }
 }
