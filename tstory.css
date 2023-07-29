@@ -1,20 +1,39 @@
 .box {
-    width: 10px; height: 10px; background: black;
-    border-radius: 100%;
-    animation: simpleBox 2s infinite linear;
+    top: 0px;
+    width: 30px; height: 30px;
+    border-radius: 40%;
+    animation-name: simpleBox;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.box1 {
+    background: yellowgreen;
+    animation-delay: 0s;
+}
+.box2 {
+    background: darkcyan;
+    animation-delay: 1s;
+}
+.box3 {
+    background: violet;
+    animation-delay: -1s;
+}
 @keyframes simpleBox{
     0% {
-        margin-top: 0%;
         margin-left: 0%;
     }
     25% {
-        margin-top: 10%;
-        margin-left: 0%;
+        margin-left: 5%;
     }
     50% {
-        margin-top: 5%;
+        margin-left: 0%;
+    }
+    75% {
         margin-left: 10%;
     }
 }
