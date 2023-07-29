@@ -142,6 +142,21 @@
     animation-timing-function: linear;
     animation-direction: alternate-reverse;
 }
+.startEstop{
+    background: rgb(188, 116, 255);
+    width: 100px;
+    animation-name: longBox;
+}
+.startEstop:hover{
+    background: rgb(51, 51, 51);
+    animation-play-state: paused;
+}
+.startEstop::before{
+    content:"running"
+}
+.startEstop:hover::before{
+    content: "stop";
+}
 @keyframes simpleBox{
     0% {
         margin-left: 0%;
