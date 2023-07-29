@@ -152,7 +152,7 @@
     animation-play-state: paused;
 }
 .startEstop::before{
-    content:"running"
+    content:"now running mouse over!"
 }
 .startEstop:hover::before{
     content: "stop";
