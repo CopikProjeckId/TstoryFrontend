@@ -1,0 +1,53 @@
+.container {
+    border: 1px solid rebeccapurple;
+    display: flex;
+    margin: 3px;
+}
+.stretch {
+    align-items: stretch;
+}
+.flex-start {
+    align-items: flex-start;
+}
+.flex-end {
+    align-items: flex-end;
+}
+.center {
+    align-items: center;
+}
+.baseline {
+    align-items: baseline;
+}
+.tt {
+    text-align: center;
+}
+.container .item1 {
+    width: 30px;
+    height: 10px;
+    border: 1px solid salmon;
+    margin: 3px;
+}
+.container .item2 {
+    width: 30px;
+    height: 30px;
+    border: 1px solid salmon;
+    margin: 3px;
+}
+.container .item3 {
+    width: 30px;
+    height: 20px;
+    border: 1px solid salmon;
+    margin: 3px;
+}
+.container .item4 {
+    width: 30px;
+    height: 50px;
+    border: 1px solid salmon;
+    margin: 3px;
+}
+.container .item5 {
+    width: 30px;
+    height: 40px;
+    border: 1px solid salmon;
+    margin: 3px;
+}
