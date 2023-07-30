@@ -1,0 +1,9 @@
+.container{
+    border: 1px solid brown;
+    display: flex;
+}
+.container .item {
+    width: 30px;
+    height: 100px;
+    border: 1px solid rebeccapurple;
+}
