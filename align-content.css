@@ -1,0 +1,32 @@
+.container {
+    border: 1px solid rebeccapurple;
+    display: flex;
+    margin: 3px;
+    height: 200px;
+    flex-wrap: wrap;
+}
+.stretch {
+    align-content: stretch;
+}
+.flex-start {
+    align-content: flex-start;
+}
+.flex-end {
+    align-content: flex-end;
+}
+.center {
+    align-content: center;
+}
+.space-b {
+    align-content: space-between;
+}
+.space-a {
+    align-content: space-around;
+}
+
+.container .item {
+    width: 30px;
+    height: 30px;
+    border: 1px solid salmon;
+    margin: 3px;
+}
